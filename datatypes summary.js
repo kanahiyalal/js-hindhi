@@ -26,3 +26,25 @@ const myFunction = function(){
     console.log("hello world");
 }
 console.log(typeof BigNumber);
+
+
+
+//***********************************************************************************
+//memory 
+//Two types of memory
+//1.Stach(primitive) , 2.Heap(non-primitive)
+let myYoutubeName = "kanahiya soni"
+let anotherName = myYoutubeName
+anotherName = "narseeghani"
+console.log(anotherName);
+
+let userOne ={
+    email : "kanahiya@gmail.com",
+    upi : "user@ybl",
+}
+let userTwo = userOne
+userTwo.email = "kanahiya@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
