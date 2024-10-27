@@ -33,6 +33,15 @@ const newStringOne = "    kanahiya  "
 console.log(newStringOne);
 console.log(newStringOne.trim());
 
+//url 
+const url= ("https://www.youtube.com/watch?v=sscX432bMZo&t=8067s")
+console.log(url.replace('%20' , '-'));
+console.log(url.includes('kanahiya'));
+console.log(gameName.split('-'));
+
+
+
+
 
 
 
